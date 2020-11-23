@@ -1,0 +1,10 @@
+a = int(input('side A:'))
+b = int(input('side B:'))
+c = int(input('side C:'))
+
+def pythagoras(a,b,c):
+    return a**2+b**2 == c**2
+if(pythagoras(a,b,c)):
+    print('true')
+else:
+    print('false')
